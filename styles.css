@@ -156,3 +156,10 @@ button:hover {
     border-radius: 5px;
     margin: 5px 0;
 }
+
+#logo {
+    width: 120px;  /* Adjust width as needed */
+    height: auto;   /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto 10px;  /* Center logo */
+}

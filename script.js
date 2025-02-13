@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     /** ✅ Checkout Function (Clears List) **/
     window.checkout = function () {
-        alert("✅ Order placed for: " + groceryList.join(", "));
+        alert("✅ Order placed for: Chicken,Pepper,Vegetable Oil" + groceryList.join(", "));
         groceryList = [];
         updateGroceryList();
     };

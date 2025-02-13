@@ -163,3 +163,11 @@ button:hover {
     display: block;
     margin: 0 auto 10px;  /* Center logo */
 }
+#tagline {
+    font-size: 0.8em;
+    font-style: italic;
+    color: #4d0404; /* Soft grey for readability */
+    text-align: center;
+    margin-top: -10px; /* Adjust spacing to bring it closer to the logo */
+    font-weight: 500;
+}

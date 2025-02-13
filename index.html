@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Meal Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Smart Meal Planner & Grocery Shopping</h1>
+    </header>
+
+    <!-- Meal Planner Section -->
+    <section id="meal-planner">
+        <h2>Personalized Meal Plan</h2>
+        <label for="diet">Select Diet:</label>
+        <select id="diet">
+            <option value="vegan">Vegan</option>
+            <option value="keto">Keto</option>
+            <option value="paleo">Paleo</option>
+        </select>
+        <button onclick="generateMealPlan()">Generate Plan</button>
+        <div id="meal-results"></div>
+    </section>
+
+    <!-- Recipe Generator Section -->
+    <section id="recipe-generator">
+        <h2>Smart Recipe Generator</h2>
+        <input type="text" id="ingredient" placeholder="Enter an ingredient">
+        <button onclick="generateRecipe()">Find Recipes</button>
+        <div id="recipe-results"></div>
+    </section>
+
+    <!-- Grocery List Section -->
+    <section id="grocery-list">
+        <h2>Grocery List</h2>
+        <ul id="cart">
+            <li>Chicken</li>
+            <li>Pepper</li>
+            <li>Vegetable Oil</li>
+        </ul>
+        <button onclick="checkout()">Checkout</button>
+    </section>
+
+    <!-- AI Chatbot -->
+    <div id="chat-container">
+        <h2>Chat with AI 🤖</h2>
+        <div id="chat-box"></div>
+        <input type="text" id="chat-input" placeholder="Type a message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
